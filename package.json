@@ -1,0 +1,15 @@
+{
+  "name": "handle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "watchify app.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "file:handlebars",
+    "jquery": "file:jquery"
+  }
+}
