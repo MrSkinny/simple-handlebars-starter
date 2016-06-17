@@ -4,12 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "watch": "watchify app.js -o bundle.js"
+    "watch": "node_modules/watchify/bin/cmd.js app.js -o bundle.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "handlebars": "file:handlebars",
     "jquery": "file:jquery"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0"
   }
 }
